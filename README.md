@@ -6,8 +6,7 @@
 <a href="https://xerilius.github.io/whiteboard"> 🖊️LIVE DEMO✏️</a>
 </h3>
 
-<b><ins>TECHNOLOGIES </ins></b>  
-
+<b><ins>BUILT WITH</ins></b>  
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
   <img alt="js" src="https://icongr.am/devicon/javascript-original.svg?size=70"></a> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
