@@ -1,7 +1,9 @@
 "use strict";
+window.onload = function() {
 // Canvas Dimensions
 let canvas = document.querySelector('#whiteboard');
 let ctx = canvas.getContext('2d');
+
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -98,3 +100,5 @@ canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false); 
 canvas.addEventListener('touchstart', onTouchStart, false);
 canvas.addEventListener('touchmove', onTouchMove, false);
+
+};
