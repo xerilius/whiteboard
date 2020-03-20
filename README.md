@@ -1,4 +1,4 @@
-#  W H I T E B O A R D
+<h1><a href="https://xerilius.github.io/whiteboard">W H I T E B O A R D </a> </h1>
 
 ### A whiteboard app made for stylus compatibility, teaching & studying purposes.
 
