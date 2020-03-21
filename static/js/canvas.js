@@ -1,5 +1,5 @@
 "use strict";
-window.onload = function() {
+
 // Canvas Dimensions
 let canvas = document.querySelector('#whiteboard');
 let ctx = canvas.getContext('2d');
@@ -7,9 +7,16 @@ let ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+// Get first color of the element by class name
+const colors = document.getElementsByClassName('colors')[0];
+
+// colors.addEventListener('click', function(event) {
+//     console.log(event.target.value);
+// });
+
+
 let touchX, touchY;
 let [clickX, clickY] = [0,0];
-
 let isDrawing = false;
 
 // function drawDot(ctx, x, y, size) {
@@ -100,5 +107,3 @@ canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false); 
 canvas.addEventListener('touchstart', onTouchStart, false);
 canvas.addEventListener('touchmove', onTouchMove, false);
-
-};

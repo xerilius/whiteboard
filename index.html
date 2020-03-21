@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
     <title>Whiteboard</title>
 </head>
    
 <body>
     <main>
+        
         <div class="toolbar">
             <!-- Colors -->
-            <div class="colors">
+            <div class="toolbar__colors">
+                <div class="toolbar__colors--grp">
                 <button type="button" value="black"></button>
                 <button type="button" value="red"></button>
                 <button type="button" value="blue"></button>
+                <button type="button" value="yellow"></button>
                 <button type="button" value="green"></button>
                 <button type="button" value="purple"></button>
-                <button type="button" value="yellow"></button>
                 <button type="button" value="pink"></button>
+                </div>
             </div>
             <!-- Brushes -->
-            <div class="brushes">
-                <button type="button" value="1"></button>
-                <button type="button" value="2"></button>
-                <button type="button" value="3"></button>
+            <div class="toolbar__brushes">
+                <div class="toolbar__brushes--slider">
+                    <input type="range" min="1" max="5" value="50" class="toolbar__brushes--slider" id="myRange">
             </div>
             <!-- Save & Clear Buttons -->
-            <div class="buttons">
+            <div class="toolbar__buttons">
+                <div class="toolbar__buttons--grp">
                 <button id="clear" type="button">Clear</button>
                 <button id="save" type="button">Save</button>
+                </div>
             </div>
 
 
